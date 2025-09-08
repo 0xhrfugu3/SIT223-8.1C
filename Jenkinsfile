@@ -2,7 +2,7 @@ pipeline {
   agent any
   stages {
     stage('Build') {
-      steps { echo 'Using Maven for Building' }
+      steps { echo 'Using Maven for Building. Hello!' }
     }
     stage('Unit and Integration Tests') {
       steps { echo 'Using Jest for Unit and Integration Tests' }
